@@ -5,15 +5,7 @@
 
 ## ⚡️ Quick start
 
-Prerequisites 
-1. Create a [Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) in Github. It is recommended to scope only for `package:read`.
-2. Add Rightpoint's Github Package feed to your `dotnet` nuget feed(s) with your newly created PAT: `dotnet nuget add source https://nuget.pkg.github.com/Rightpoint/index.json --name github --username YOUR_USERNAME --password YOUR_PERSONAL_ACCESS_TOKEN`
 
-Once that is done, installation is a breeze using the `dotnet tool install` command:
-
-```shell
-dotnet tool install --global OptiScaffold
-```
 
 ## ⚙️ How to use
 
