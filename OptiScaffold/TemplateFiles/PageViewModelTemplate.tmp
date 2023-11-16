@@ -1,0 +1,20 @@
+using EPiServer.DataAbstraction;
+using System.Linq;
+using {abstractNamespace};
+using {pageVmNamespace}
+
+namespace {featureNamespace}.{type}.{className}
+{
+    public class {className}ViewModel : {pageVmClass}<{className}>
+    {
+        public {className}ViewModel({className} currentPage) : base(currentPage)
+        {
+        }
+
+        public static {className}ViewModel Create({className} currentPage)
+        {
+            var model = new {className}ViewModel(currentPage);
+            return model;
+        }
+    }
+}

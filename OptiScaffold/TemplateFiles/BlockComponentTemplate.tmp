@@ -1,0 +1,24 @@
+using EPiServer;
+using EPiServer.Core;
+using EPiServer.Web.Mvc;
+using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
+
+namespace {featureNamespace}.{type}.{className}
+{
+    public class {className}Component : AsyncBlockComponent<{className}>
+    {
+        private readonly IContentLoader _contentLoader;
+
+        public {className}Component(IContentLoader contentLoader)
+        {
+            _contentLoader = contentLoader;
+        }
+
+        protected override async Task<IViewComponentResult> InvokeComponentAsync({className} currentBlock)
+        {
+            var model = new {className}ViewModel(currentBlock);
+            return await Task.FromResult(View("~/Features/{type}/{className}/{className}.cshtml", model));
+        }
+    }
+}

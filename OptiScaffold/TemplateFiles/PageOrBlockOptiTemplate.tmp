@@ -1,0 +1,15 @@
+using EPiServer.Core;
+using EPiServer.DataAbstraction;
+using EPiServer.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
+using {abstractNamespace};
+
+namespace {featureNamespace}.{type}.{className}
+{
+    [ContentType(DisplayName = "{cmsname}",
+        GUID = "{guid}",
+        Description = "{cmsname}")]
+    public class {className} : {abstractClassName}
+    {
+    }
+}
