@@ -13,16 +13,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="TemplateFiles\BlockComponentTemplate.tmp" />
-    <None Remove="TemplateFiles\BlockViewModelTemplate.tmp" />
-    <None Remove="TemplateFiles\BlockViewTemplate.tmp" />
-    <None Remove="TemplateFiles\PageControllerTemplate.tmp" />
-    <None Remove="TemplateFiles\PageOrBlockOptiTemplate.tmp" />
-    <None Remove="TemplateFiles\PageViewModelTemplate.tmp" />
-    <None Remove="TemplateFiles\PageViewTemplate.tmp" />
-  </ItemGroup>
-
-  <ItemGroup>
     <EmbeddedResource Include="TemplateFiles\BlockComponentTemplate.tmp" />
     <EmbeddedResource Include="TemplateFiles\BlockViewModelTemplate.tmp" />
     <EmbeddedResource Include="TemplateFiles\BlockViewTemplate.tmp" />
