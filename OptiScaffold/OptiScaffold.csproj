@@ -8,8 +8,9 @@
 	<PackAsTool>true</PackAsTool>
 	<ToolCommandName>optiscaffolder</ToolCommandName>
 	<PackageOutputPath>./nupkg</PackageOutputPath>
-	<FileVersion>2.0.0.0</FileVersion>
-    <RepositoryUrl>https://github.com/Rightpoint/OptiScaffold</RepositoryUrl>
+  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<FileVersion>1.0.0.0</FileVersion>
+    <RepositoryUrl>https://github.com/maccettura/OptiScaffold</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
