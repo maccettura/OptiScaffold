@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "OptiScaffold": {
+      "commandName": "Project",
+        "commandLineArgs": "",
+      "workingDirectory": ""
+    }
+  }
+}
