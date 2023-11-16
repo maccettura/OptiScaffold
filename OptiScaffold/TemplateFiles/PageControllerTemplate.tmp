@@ -1,0 +1,10 @@
+using EPiServer.Web.Mvc;
+using Microsoft.AspNetCore.Mvc;
+
+namespace {featureNamespace}.{type}.{className}
+{
+    public class {className}Controller : PageController<{className}>
+    {
+        public ActionResult Index({className} currentContent) => View(ContentViewModel.Create<{className}>(currentContent));
+    }
+}
