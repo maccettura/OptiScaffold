@@ -1,0 +1,11 @@
+using {blockVmNamespace};
+
+namespace {featureNamespace}.{type}.{className}
+{
+    public class {className}ViewModel : {blockVmClass}<{className}>
+    {
+        public {className}ViewModel({className} currentBlock) : base(currentBlock)
+        {
+        }
+    }
+}
