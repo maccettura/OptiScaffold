@@ -59,11 +59,3 @@ In the above examples, the command would be:
 ```shell
 optiscaffolder page -n TestPage -c "Test Page"
 ```
-
-## ⭐️ Project assistance
-
-TBD
-
-## ⚠️ License
-
-TBD
