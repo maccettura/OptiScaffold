@@ -5,7 +5,7 @@
 
 ## ⚡️ Quick start
 
-Install using the dotet tool install via your favorite terminal: `dotnet tool install --global OptiScaffold`
+Install using the dotnet tool install via your favorite terminal: `dotnet tool install --global OptiScaffold`
 
 ## ⚙️ How to use
 
